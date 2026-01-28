@@ -14,7 +14,8 @@ frame:SetScript("OnEvent", function()
         if quest and quest.isHidden then
             C_QuestLog.RemoveQuestWatch(quest.questID)
             unwatched = unwatched + 1
-			print("Unwatched hidden quest:", quest.title or "Unknown Quest")
+			-- Optional: uncomment the below line to log each unwatched hidden quest
+			-- print("Unwatched hidden quest:", quest.title or "Unknown Quest")
         end
     end
 

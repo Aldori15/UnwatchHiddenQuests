@@ -1,0 +1,8 @@
+## Interface: 120000, 120001
+## Author: Aldori
+## Version: 1.0
+## Title: |cFF00B0E8Aldori|r - Unwatch Hidden Quests
+## Notes: Automatically unwatches hidden tracked quests on login.
+## Category: Aldori
+
+UnwatchHiddenQuests.lua
